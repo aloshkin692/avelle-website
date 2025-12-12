@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Avellé — преміум дизайнерські плаття для дівчаток. Перегляньте нашу колекцію на Instagram">
+    <meta name="keywords" content="designer dresses, children dresses, premium clothing, Avellé">
+    <title>Avellé — Designer Children Dresses | Дизайнерські плаття для дівчаток</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="logotrans.png" alt="Avellé Logo">
+                </div>
+                <nav class="nav">
+                    <a href="#about" data-en="About" data-uk="Про бренд">About</a>
+                    <a href="#gallery" data-en="Gallery" data-uk="Галерея">Gallery</a>
+                    <a href="#collaboration" data-en="Collaboration" data-uk="Співпраця">Collaboration</a>
+                </nav>
+                <div class="header-actions">
+                    <button class="lang-toggle" id="langToggle">
+                        <span class="lang-option active" data-lang="en">EN</span>
+                        <span class="lang-divider">/</span>
+                        <span class="lang-option" data-lang="uk">УКР</span>
+                    </button>
+                    <a href="https://www.instagram.com/avelle.kid/" target="_blank" class="btn-instagram-small">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 class="section-title" data-en="About Avellé" data-uk="Про Avellé">About Avellé</h3>
+                    <p class="about-description" data-en="Avellé is a premium children's fashion brand dedicated to creating exquisite dresses for little girls. Each dress is thoughtfully designed with attention to detail, combining timeless elegance with playful charm. We believe every girl deserves to feel like a princess, and our handcrafted dresses bring that dream to life." data-uk="Avellé — преміум бренд дитячої моди, присвячений створенню вишуканих платтів для маленьких дівчаток. Кожне плаття ретельно розроблене з увагою до деталей, поєднуючи вічну елегантність з грайливим шармом. Ми віримо, що кожна дівчинка заслуговує відчувати себе принцесою, і наші плаття ручної роботи втілюють цю мрію в життя.">
+                        Avellé is a premium children's fashion brand dedicated to creating exquisite dresses for little girls. Each dress is thoughtfully designed with attention to detail, combining timeless elegance with playful charm. We believe every girl deserves to feel like a princess, and our handcrafted dresses bring that dream to life.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-gem"></i>
+                            <span data-en="Premium Quality" data-uk="Преміум якість">Premium Quality</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-hand-sparkles"></i>
+                            <span data-en="Handcrafted Details" data-uk="Ручна робота">Handcrafted Details</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <span data-en="Made with Love" data-uk="Створено з любов'ю">Made with Love</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder about-img"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h3 class="section-title center" data-en="Our Collection" data-uk="Наша Колекція">Our Collection</h3>
+            <p class="section-subtitle" data-en="Discover our beautiful dresses on Instagram" data-uk="Відкрийте наші прекрасні плаття в Instagram">
+                Discover our beautiful dresses on Instagram
+            </p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-slider-item">
+                    <div class="gallery-slider">
+                        <div class="slider-images">
+                            <div class="slider-image active" style="background-image: url('dress1/1.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress1/2.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress1/3.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress1/4.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress1/5.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress1/6.jpg');"></div>
+                        </div>
+                        <button class="slider-btn prev-btn" aria-label="Previous">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="slider-btn next-btn" aria-label="Next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="slider-dots"></div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4 data-en="Sunshine Grace" data-uk="Сонячна грація">Sunshine Grace</h4>
+                    </div>
+                </div>
+                
+                <div class="gallery-item gallery-slider-item">
+                    <div class="gallery-slider">
+                        <div class="slider-images">
+                            <div class="slider-image active" style="background-image: url('dress2/1.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress2/2.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress2/3.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress2/4.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress2/6.jpg');"></div>
+                        </div>
+                        <button class="slider-btn prev-btn" aria-label="Previous">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="slider-btn next-btn" aria-label="Next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="slider-dots"></div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4 data-en="Royal Enchantment" data-uk="Королівське чарівництво">Royal Enchantment</h4>
+                    </div>
+                </div>
+                
+                <div class="gallery-item gallery-slider-item">
+                    <div class="gallery-slider">
+                        <div class="slider-images">
+                            <div class="slider-image active" style="background-image: url('dress3/1.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress3/2.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress3/3.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress3/4.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress3/5.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress3/6.jpg');"></div>
+                        </div>
+                        <button class="slider-btn prev-btn" aria-label="Previous">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="slider-btn next-btn" aria-label="Next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="slider-dots"></div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4 data-en="Twilight Elegance" data-uk="Сутінкова елегантність">Twilight Elegance</h4>
+                    </div>
+                </div>
+                
+                <div class="gallery-item gallery-slider-item">
+                    <div class="gallery-slider">
+                        <div class="slider-images">
+                            <div class="slider-image active" style="background-image: url('dress4/1.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress4/2.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress4/3.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress4/4.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress4/5.jpg');"></div>
+                        </div>
+                        <button class="slider-btn prev-btn" aria-label="Previous">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="slider-btn next-btn" aria-label="Next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="slider-dots"></div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4 data-en="Rose Garden" data-uk="Трояндовий сад">Rose Garden</h4>
+                    </div>
+                </div>
+                
+                <div class="gallery-item gallery-slider-item">
+                    <div class="gallery-slider">
+                        <div class="slider-images">
+                            <div class="slider-image active" style="background-image: url('dress5/1.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress5/2.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress5/3.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress5/4.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress5/5.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress5/6.jpg');"></div>
+                        </div>
+                        <button class="slider-btn prev-btn" aria-label="Previous">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="slider-btn next-btn" aria-label="Next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="slider-dots"></div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4 data-en="Blossom Dreams" data-uk="Квіткові мрії">Blossom Dreams</h4>
+                    </div>
+                </div>
+                
+                <div class="gallery-item gallery-slider-item">
+                    <div class="gallery-slider">
+                        <div class="slider-images">
+                            <div class="slider-image active" style="background-image: url('dress6/1.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress6/2.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress6/3.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress6/4.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress6/5.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress6/6.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress6/7.jpg');"></div>
+                        </div>
+                        <button class="slider-btn prev-btn" aria-label="Previous">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="slider-btn next-btn" aria-label="Next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="slider-dots"></div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4 data-en="Timeless Beauty" data-uk="Вічна краса">Timeless Beauty</h4>
+                    </div>
+                </div>
+                
+                <div class="gallery-item gallery-slider-item">
+                    <div class="gallery-slider">
+                        <div class="slider-images">
+                            <div class="slider-image active" style="background-image: url('dress7/1.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress7/2.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress7/3.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress7/4.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress7/5.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress7/6.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress7/7.jpg');"></div>
+                        </div>
+                        <button class="slider-btn prev-btn" aria-label="Previous">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="slider-btn next-btn" aria-label="Next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="slider-dots"></div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4 data-en="Vintage Whisper" data-uk="Вінтажний шепіт">Vintage Whisper</h4>
+                    </div>
+                </div>
+                
+                <div class="gallery-item gallery-slider-item">
+                    <div class="gallery-slider">
+                        <div class="slider-images">
+                            <div class="slider-image active" style="background-image: url('dress8/1.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress8/2.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress8/3.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress8/4.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress8/5.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress8/6.jpg');"></div>
+                        </div>
+                        <button class="slider-btn prev-btn" aria-label="Previous">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="slider-btn next-btn" aria-label="Next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="slider-dots"></div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4 data-en="Rose Reverie" data-uk="Трояндова мрія">Rose Reverie</h4>
+                    </div>
+                </div>
+                
+                <div class="gallery-item gallery-slider-item">
+                    <div class="gallery-slider">
+                        <div class="slider-images">
+                            <div class="slider-image active" style="background-image: url('dress9/1.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress9/2.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress9/3.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress9/4.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress9/5.jpg');"></div>
+                        </div>
+                        <button class="slider-btn prev-btn" aria-label="Previous">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="slider-btn next-btn" aria-label="Next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="slider-dots"></div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4 data-en="Angel's Touch" data-uk="Дотик янгола">Angel's Touch</h4>
+                    </div>
+                </div>
+                
+                <div class="gallery-item gallery-slider-item">
+                    <div class="gallery-slider">
+                        <div class="slider-images">
+                            <div class="slider-image active" style="background-image: url('dress10/1.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress10/2.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress10/3.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress10/4.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress10/5.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress10/6.jpg');"></div>
+                        </div>
+                        <button class="slider-btn prev-btn" aria-label="Previous">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="slider-btn next-btn" aria-label="Next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="slider-dots"></div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4 data-en="Fairy Tale" data-uk="Казкове">Fairy Tale</h4>
+                    </div>
+                </div>
+                
+                <div class="gallery-item gallery-slider-item">
+                    <div class="gallery-slider">
+                        <div class="slider-images">
+                            <div class="slider-image active" style="background-image: url('dress11/1.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress11/2.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress11/3.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress11/4.jpg');"></div>
+                            <div class="slider-image" style="background-image: url('dress11/5.jpg');"></div>
+                        </div>
+                        <button class="slider-btn prev-btn" aria-label="Previous">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="slider-btn next-btn" aria-label="Next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="slider-dots"></div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4 data-en="Pearl Elegance" data-uk="Перлинна елегантність">Pearl Elegance</h4>
+                    </div>
+                </div>
+                
+                <div class="gallery-item gallery-slider-item">
+                    <div class="gallery-slider">
+                        <div class="slider-images">
+                            <div class="slider-image active" style="background-image: url('dress12/1.jpg?v=2');"></div>
+                            <div class="slider-image" style="background-image: url('dress12/2.jpg?v=2');"></div>
+                            <div class="slider-image" style="background-image: url('dress12/3.jpg?v=2');"></div>
+                            <div class="slider-image" style="background-image: url('dress12/4.jpg?v=2');"></div>
+                            <div class="slider-image" style="background-image: url('dress12/5.jpg?v=2');"></div>
+                            <div class="slider-image" style="background-image: url('dress12/6.jpg?v=2');"></div>
+                            <div class="slider-image" style="background-image: url('dress12/7.jpg?v=2');"></div>
+                        </div>
+                        <button class="slider-btn prev-btn" aria-label="Previous">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="slider-btn next-btn" aria-label="Next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="slider-dots"></div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4 data-en="Blossom Magic" data-uk="Магія цвітіння">Blossom Magic</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collaboration Section -->
+    <section id="collaboration" class="collaboration">
+        <div class="container">
+            <div class="collaboration-content">
+                <div class="collaboration-text">
+                    <h3 class="section-title" data-en="Let's Collaborate" data-uk="Давайте співпрацювати">Let's Collaborate</h3>
+                    <p class="collaboration-description" data-en="We are always looking for new partnerships with boutiques, stylists, photographers, and influencers who share our passion for elegant children's fashion. If you would like to collaborate with Avellé, we would love to hear from you." data-uk="Ми завжди шукаємо нові партнерства з бутіками, стилістами, фотографами та інфлюенсерами, які поділяють нашу пристрасть до елегантної дитячої моди. Якщо ви хочете співпрацювати з Avellé, ми будемо раді почути від вас.">
+                        We are always looking for new partnerships with boutiques, stylists, photographers, and influencers who share our passion for elegant children's fashion. If you would like to collaborate with Avellé, we would love to hear from you.
+                    </p>
+                    
+                    <div class="collaboration-types">
+                        <div class="collab-type">
+                            <i class="fas fa-store"></i>
+                            <div class="collab-type-text">
+                                <h4 data-en="Retail Partners" data-uk="Партнери роздрібної торгівлі">Retail Partners</h4>
+                                <p data-en="Boutiques & stores" data-uk="Бутіки та магазини">Boutiques & stores</p>
+                            </div>
+                        </div>
+                        <div class="collab-type">
+                            <i class="fas fa-camera"></i>
+                            <div class="collab-type-text">
+                                <h4 data-en="Content Creators" data-uk="Творці контенту">Content Creators</h4>
+                                <p data-en="Photographers & stylists" data-uk="Фотографи та стилісти">Photographers & stylists</p>
+                            </div>
+                        </div>
+                        <div class="collab-type">
+                            <i class="fas fa-users"></i>
+                            <div class="collab-type-text">
+                                <h4 data-en="Influencers" data-uk="Інфлюенсери">Influencers</h4>
+                                <p data-en="Brand ambassadors" data-uk="Амбасадори бренду">Brand ambassadors</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="collaboration-form-wrapper">
+                    <form class="collaboration-form" id="collaborationForm" action="https://formspree.io/f/manrpler" method="POST">
+                        <h4 data-en="Get in Touch" data-uk="Зв'яжіться з нами">Get in Touch</h4>
+                        
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name" data-en="Your Name" data-uk="Ваше ім'я">Your Name</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email" data-en="Email Address" data-uk="Email адреса">Email Address</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" id="company" name="company">
+                            <label for="company" data-en="Company / Brand" data-uk="Компанія / Бренд">Company / Brand</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <select id="type" name="type" required>
+                                <option value="" disabled selected data-en="Select collaboration type" data-uk="Оберіть тип співпраці">Select collaboration type</option>
+                                <option value="retail" data-en="Retail Partner" data-uk="Партнер роздрібної торгівлі">Retail Partner</option>
+                                <option value="content" data-en="Content Creator" data-uk="Творець контенту">Content Creator</option>
+                                <option value="influencer" data-en="Influencer" data-uk="Інфлюенсер">Influencer</option>
+                                <option value="other" data-en="Other" data-uk="Інше">Other</option>
+                            </select>
+                            <label for="type" data-en="Collaboration Type" data-uk="Тип співпраці">Collaboration Type</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                            <label for="message" data-en="Your Message" data-uk="Ваше повідомлення">Your Message</label>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit">
+                            <span data-en="Send Message" data-uk="Надіслати повідомлення">Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                        
+                        <div class="form-message" id="formMessage"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram CTA Section -->
+    <section id="instagram" class="instagram-cta">
+        <div class="container">
+            <div class="instagram-banner">
+                <div class="instagram-info">
+                    <i class="fab fa-instagram"></i>
+                    <div class="instagram-details">
+                        <h3 data-en="Follow us on Instagram" data-uk="Підписуйтесь в Instagram">Follow us on Instagram</h3>
+                        <p data-en="@avellé.kid" data-uk="@avellé.kid">@avellé.kid</p>
+                    </div>
+                </div>
+                <a href="https://www.instagram.com/avelle.kid/" target="_blank" class="btn-instagram-follow">
+                    <span data-en="Follow" data-uk="Підписатися">Follow</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="logotrans.png" alt="Avellé Logo" class="footer-logo">
+                    <p data-en="Designer dresses for little girls" data-uk="Дизайнерські плаття для дівчаток">
+                        Designer dresses for little girls
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 data-en="Quick Links" data-uk="Швидкі посилання">Quick Links</h4>
+                    <a href="#about" data-en="About" data-uk="Про бренд">About</a>
+                    <a href="#gallery" data-en="Gallery" data-uk="Галерея">Gallery</a>
+                    <a href="#collaboration" data-en="Collaboration" data-uk="Співпраця">Collaboration</a>
+                    <a href="https://www.instagram.com/avelle.kid/" target="_blank">Instagram</a>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4 data-en="Contact" data-uk="Контакти">Contact</h4>
+                    <a href="mailto:avelle.office@gmail.com">avelle.office@gmail.com</a>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/avelle.kid/" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Avellé. <span data-en="All rights reserved." data-uk="Всі права захищені.">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
