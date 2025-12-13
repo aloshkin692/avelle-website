@@ -1132,6 +1132,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 640px) {
+    body {
+        font-size: 0.9rem;
+    }
+    
     .container {
         padding: 0 1rem;
     }
@@ -1151,7 +1155,11 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .section-title {
-        font-size: 2rem;
+        font-size: 1.6rem;
+    }
+    
+    .section-subtitle {
+        font-size: 0.95rem;
     }
     
     .logo img {
@@ -1159,7 +1167,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .logo h1 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         letter-spacing: 2px;
     }
     
@@ -1168,7 +1176,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .gallery-overlay h4 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     
     .instagram-banner {
@@ -1176,22 +1184,22 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .instagram-info i {
-        font-size: 2rem;
-        width: 50px;
-        height: 50px;
+        font-size: 1.8rem;
+        width: 45px;
+        height: 45px;
     }
     
     .instagram-details h3 {
-        font-size: 1.1rem;
+        font-size: 0.95rem;
     }
     
     .instagram-details p {
-        font-size: 1rem;
+        font-size: 0.85rem;
     }
     
     .btn-instagram-follow {
-        padding: 0.8rem 2rem;
-        font-size: 0.9rem;
+        padding: 0.7rem 1.8rem;
+        font-size: 0.85rem;
     }
     
     .collab-type {
@@ -1200,10 +1208,30 @@ h1, h2, h3, h4, h5, h6 {
         gap: 1rem;
     }
     
+    .collab-type i {
+        font-size: 2rem;
+    }
+    
+    .collab-type h3 {
+        font-size: 1.1rem;
+    }
+    
+    .collab-type p {
+        font-size: 0.9rem;
+    }
+    
     .btn-primary,
     .btn-instagram-large {
-        padding: 0.8rem 1.8rem;
-        font-size: 0.85rem;
+        padding: 0.7rem 1.5rem;
+        font-size: 0.8rem;
+    }
+    
+    input, textarea {
+        font-size: 0.9rem;
+    }
+    
+    .about-text p {
+        font-size: 0.9rem;
     }
 }
 
@@ -1224,6 +1252,10 @@ h1, h2, h3, h4, h5, h6 {
    =================================== */
 
 @media (max-width: 480px) {
+    body {
+        font-size: 0.85rem;
+    }
+    
     .hero {
         height: 45vh;
         min-height: 350px;
@@ -1235,6 +1267,25 @@ h1, h2, h3, h4, h5, h6 {
     
     .hero::after {
         height: 60px;
+    }
+    
+    .section-title {
+        font-size: 1.4rem;
+    }
+    
+    .section-subtitle {
+        font-size: 0.85rem;
+    }
+    
+    .gallery-overlay h4 {
+        font-size: 0.9rem;
+    }
+    
+    .btn-primary,
+    .btn-instagram-large,
+    .btn-instagram-follow {
+        padding: 0.65rem 1.3rem;
+        font-size: 0.75rem;
     }
 }
 
