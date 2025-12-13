@@ -684,6 +684,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.8;
     color: var(--color-text);
     margin-bottom: var(--spacing-md);
+    text-align: center;
 }
 
 .collaboration-types {
@@ -939,6 +940,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0.3rem 0 0 0;
     color: var(--color-text);
     font-weight: 300;
+    text-align: center;
 }
 
 .btn-instagram-follow {
@@ -1161,13 +1163,14 @@ h1, h2, h3, h4, h5, h6 {
         text-align: center;
     }
     
-    /* ОСНОВНОЙ ТЕКСТ - единый размер */
+    /* ОСНОВНОЙ ТЕКСТ - единый размер и центрирование */
     .section-subtitle,
     .about-text p,
-    .collab-intro p,
-    p {
+    .collaboration-description,
+    .instagram-details p {
         font-size: 1rem;
         line-height: 1.7;
+        text-align: center;
     }
     
     .logo img {
@@ -1201,10 +1204,6 @@ h1, h2, h3, h4, h5, h6 {
     /* INSTAGRAM БЛОК - увеличенный шрифт */
     .instagram-details h3 {
         font-size: 1.1rem;
-    }
-    
-    .instagram-details p {
-        font-size: 1rem;
     }
     
     /* ВСЕ КНОПКИ - единый размер */
@@ -1281,10 +1280,10 @@ h1, h2, h3, h4, h5, h6 {
     /* ОСНОВНОЙ ТЕКСТ */
     .section-subtitle,
     .about-text p,
-    .collab-intro p,
-    .instagram-details p,
-    p {
+    .collaboration-description,
+    .instagram-details p {
         font-size: 0.95rem;
+        text-align: center;
     }
     
     /* НАЗВАНИЯ ПЛАТЬЕВ */
