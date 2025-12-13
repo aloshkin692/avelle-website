@@ -1132,8 +1132,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 640px) {
+    /* Унифицированная система шрифтов для мобильных */
     body {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     
     .container {
@@ -1154,12 +1155,19 @@ h1, h2, h3, h4, h5, h6 {
         height: 80px;
     }
     
+    /* ЗАГОЛОВКИ СЕКЦИЙ - единый размер */
     .section-title {
         font-size: 1.6rem;
+        text-align: center;
     }
     
-    .section-subtitle {
-        font-size: 0.95rem;
+    /* ОСНОВНОЙ ТЕКСТ - единый размер */
+    .section-subtitle,
+    .about-text p,
+    .collab-intro p,
+    p {
+        font-size: 1rem;
+        line-height: 1.7;
     }
     
     .logo img {
@@ -1175,8 +1183,9 @@ h1, h2, h3, h4, h5, h6 {
         grid-template-columns: 1fr;
     }
     
+    /* НАЗВАНИЯ ПЛАТЬЕВ - чуть больше обычного текста */
     .gallery-overlay h4 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     
     .instagram-banner {
@@ -1184,22 +1193,26 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .instagram-info i {
-        font-size: 1.8rem;
-        width: 45px;
-        height: 45px;
+        font-size: 2rem;
+        width: 50px;
+        height: 50px;
     }
     
+    /* INSTAGRAM БЛОК - увеличенный шрифт */
     .instagram-details h3 {
-        font-size: 0.95rem;
+        font-size: 1.1rem;
     }
     
     .instagram-details p {
-        font-size: 0.85rem;
+        font-size: 1rem;
     }
     
+    /* ВСЕ КНОПКИ - единый размер */
+    .btn-primary,
+    .btn-instagram-large,
     .btn-instagram-follow {
-        padding: 0.7rem 1.8rem;
-        font-size: 0.85rem;
+        padding: 0.8rem 2rem;
+        font-size: 0.9rem;
     }
     
     .collab-type {
@@ -1217,21 +1230,11 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .collab-type p {
-        font-size: 0.9rem;
-    }
-    
-    .btn-primary,
-    .btn-instagram-large {
-        padding: 0.7rem 1.5rem;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     
     input, textarea {
-        font-size: 0.9rem;
-    }
-    
-    .about-text p {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 }
 
@@ -1248,12 +1251,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ===================================
-   EXTRA MOBILE OPTIMIZATION
+   EXTRA MOBILE OPTIMIZATION (очень маленькие экраны)
    =================================== */
 
 @media (max-width: 480px) {
+    /* Унифицированная система для маленьких экранов */
     body {
-        font-size: 0.85rem;
+        font-size: 0.95rem;
     }
     
     .hero {
@@ -1269,23 +1273,31 @@ h1, h2, h3, h4, h5, h6 {
         height: 60px;
     }
     
+    /* ЗАГОЛОВКИ СЕКЦИЙ */
     .section-title {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
     
-    .section-subtitle {
-        font-size: 0.85rem;
+    /* ОСНОВНОЙ ТЕКСТ */
+    .section-subtitle,
+    .about-text p,
+    .collab-intro p,
+    .instagram-details p,
+    p {
+        font-size: 0.95rem;
     }
     
+    /* НАЗВАНИЯ ПЛАТЬЕВ */
     .gallery-overlay h4 {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
     
+    /* ВСЕ КНОПКИ */
     .btn-primary,
     .btn-instagram-large,
     .btn-instagram-follow {
-        padding: 0.65rem 1.3rem;
-        font-size: 0.75rem;
+        padding: 0.75rem 1.8rem;
+        font-size: 0.85rem;
     }
 }
 
