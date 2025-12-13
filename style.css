@@ -1137,17 +1137,17 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .hero {
-        height: 70vh;
-        min-height: 500px;
+        height: 50vh;
+        min-height: 400px;
     }
     
     .hero-background {
-        background-position: center 40%;
+        background-position: center center;
         background-size: cover;
     }
     
     .hero::after {
-        height: 120px;
+        height: 80px;
     }
     
     .section-title {
@@ -1224,8 +1224,17 @@ h1, h2, h3, h4, h5, h6 {
    =================================== */
 
 @media (max-width: 480px) {
+    .hero {
+        height: 45vh;
+        min-height: 350px;
+    }
+    
     .hero-background {
-        background-position: center 35%;
+        background-position: center center;
+    }
+    
+    .hero::after {
+        height: 60px;
     }
 }
 
