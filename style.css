@@ -1157,10 +1157,32 @@ h1, h2, h3, h4, h5, h6 {
         height: 80px;
     }
     
+    /* УМЕНЬШЕНИЕ ВЕРТИКАЛЬНЫХ ОТСТУПОВ НА МОБИЛЬНЫХ */
+    .about {
+        padding: 2rem 0;
+    }
+    
+    .gallery {
+        padding: 2rem 0 2.5rem 0;
+    }
+    
+    .collaboration {
+        padding: 2.5rem 0;
+    }
+    
+    .instagram-cta {
+        padding: 2rem 0;
+    }
+    
     /* ЗАГОЛОВКИ СЕКЦИЙ - единый размер */
     .section-title {
         font-size: 1.6rem;
         text-align: center;
+        margin-bottom: 1rem;
+    }
+    
+    .section-subtitle {
+        margin-bottom: 2rem;
     }
     
     /* ОСНОВНОЙ ТЕКСТ - единый размер и центрирование */
@@ -1235,6 +1257,26 @@ h1, h2, h3, h4, h5, h6 {
     input, textarea {
         font-size: 1rem;
     }
+    
+    /* ABOUT FEATURES - центрирование на мобильных */
+    .about-features {
+        align-items: center;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .feature {
+        justify-content: center;
+        padding: 1rem;
+        background: var(--color-white);
+        border-radius: 12px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+    
+    .feature i {
+        font-size: 1.8rem;
+    }
 }
 
 /* ===================================
@@ -1272,9 +1314,31 @@ h1, h2, h3, h4, h5, h6 {
         height: 60px;
     }
     
+    /* УМЕНЬШЕНИЕ ВЕРТИКАЛЬНЫХ ОТСТУПОВ НА МАЛЕНЬКИХ ЭКРАНАХ */
+    .about {
+        padding: 1.5rem 0;
+    }
+    
+    .gallery {
+        padding: 1.5rem 0 2rem 0;
+    }
+    
+    .collaboration {
+        padding: 2rem 0;
+    }
+    
+    .instagram-cta {
+        padding: 1.5rem 0;
+    }
+    
     /* ЗАГОЛОВКИ СЕКЦИЙ */
     .section-title {
         font-size: 1.5rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .section-subtitle {
+        margin-bottom: 1.5rem;
     }
     
     /* ОСНОВНОЙ ТЕКСТ */
