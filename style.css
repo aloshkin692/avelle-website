@@ -1260,10 +1260,8 @@ h1, h2, h3, h4, h5, h6 {
     
     /* ABOUT FEATURES - центрирование на мобильных */
     .about-features {
-        align-items: center;
-        max-width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+        align-items: stretch;
+        width: 100%;
     }
     
     .feature {
