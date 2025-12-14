@@ -213,7 +213,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero {
     position: relative;
-    height: 100vh;
+    height: calc(100vh - 70px); /* Вычитаем высоту хедера */
+    margin-top: 70px; /* Отступ для фиксированного хедера */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1144,8 +1145,9 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .hero {
-        height: 50vh;
-        min-height: 400px;
+        height: calc(50vh - 65px);
+        min-height: 350px;
+        margin-top: 65px; /* Отступ для хедера на мобильных */
     }
     
     .hero-background {
@@ -1300,8 +1302,9 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .hero {
-        height: 45vh;
-        min-height: 350px;
+        height: calc(45vh - 60px);
+        min-height: 300px;
+        margin-top: 60px; /* Отступ для хедера на маленьких экранах */
     }
     
     .hero-background {
