@@ -1260,30 +1260,44 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 1rem;
     }
     
+    /* УМЕНЬШЕНИЕ ОТСТУПА ДО КАРТИНКИ */
+    .about-content {
+        gap: 1.5rem;
+    }
+    
     /* ABOUT FEATURES - минималистичный дизайн на мобильных */
     .about-features {
+        flex-direction: row;
+        justify-content: center;
         align-items: center;
         width: 100%;
-        gap: 1rem;
+        gap: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 0;
     }
     
     .feature {
         justify-content: center;
-        padding: 0.8rem 1rem;
+        padding: 0.5rem 0.8rem;
         background: transparent;
         border-radius: 0;
         box-shadow: none;
+        flex-shrink: 1;
     }
     
     .feature i {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         opacity: 0.7;
     }
     
     .feature span {
-        font-size: 0.95rem;
+        font-size: 0.9rem;
         font-weight: 300;
         opacity: 0.85;
+    }
+    
+    .about-text {
+        margin-bottom: 1rem;
     }
 }
 
@@ -1326,6 +1340,10 @@ h1, h2, h3, h4, h5, h6 {
     /* УМЕНЬШЕНИЕ ВЕРТИКАЛЬНЫХ ОТСТУПОВ НА МАЛЕНЬКИХ ЭКРАНАХ */
     .about {
         padding: 1.5rem 0;
+    }
+    
+    .about-content {
+        gap: 1.2rem;
     }
     
     .gallery {
